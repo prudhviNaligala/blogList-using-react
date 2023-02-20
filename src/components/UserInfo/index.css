@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-img {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (min-width: 576px) {
+  .profile-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+.job {
+  font-family: 'Roboto';
+}
+h1 {
+  color: #12022f;
+  font-family: 'Roboto';
+}

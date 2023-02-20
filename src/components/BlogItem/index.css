@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.line {
+  width: 100%;
+}
+.title {
+  font-family: 'Roboto';
+  color: #12022f;
+}
+p {
+  color: #9aa5b1;
+}
